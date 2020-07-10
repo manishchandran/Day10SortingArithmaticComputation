@@ -1,7 +1,6 @@
 #!/bin/bash -x
-#uc2
-AO1=$((a+b*c)) #Arithmatic Operation 1
-
+#uc3
+AO2=$((a*b+c))
 
 
 
