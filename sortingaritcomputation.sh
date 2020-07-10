@@ -1,6 +1,5 @@
 #!/bin/bash -x
-#uc4
-AO3=$((c+a/b))
-
+#uc5
+AO4=$((a%b+c))
 
 
