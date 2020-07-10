@@ -1,6 +1,18 @@
 #!/bin/bash -x
-#uc7
-for((i=0;i<=3;i++))
+#uc8
+for ((i = 0; i<4; i++)) 
 do
-	Array[$i]=${computation[$i]}
+
+    for((j = 0; j<4-i-1; j++)) 
+    do
+
+        if [ ${Array[j+1]} -gt ${Array[$((j))]} ] 
+        then
+            # swap 
+            temp=${Array[j+1]} 
+            Array[$j+1]=${Array[$((j))]}   
+            Array[$((j))]=$temp 
+        fi
+    done
 done
+echo ${Array[@]}
