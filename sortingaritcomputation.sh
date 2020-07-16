@@ -10,3 +10,7 @@ AO1=$((a+b*c)) #Arithmatic Operation 1
 #uc3
 AO2=$((a*b+c))
 
+#uc4
+AO3=$((c+a/b))
+
+
