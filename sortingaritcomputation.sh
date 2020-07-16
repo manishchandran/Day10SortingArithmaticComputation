@@ -23,3 +23,10 @@ computation[1]="$AO2"
 computation[2]="$AO3"
 computation[3]="$AO4"
 
+#uc7
+for((i=0;i<=3;i++))
+do
+	Array[$i]=${computation[$i]}
+done
+
+
