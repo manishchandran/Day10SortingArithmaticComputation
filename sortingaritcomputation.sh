@@ -16,3 +16,10 @@ AO3=$((c+a/b))
 #uc5
 AO4=$((a%b+c))
 
+#uc6
+declare -A computation
+computation[0]="$AO1"
+computation[1]="$AO2"
+computation[2]="$AO3"
+computation[3]="$AO4"
+
